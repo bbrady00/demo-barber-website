@@ -28,17 +28,19 @@
   color: white;
 }
 
-/* Reviews Section */
-.reviews-section {
-  /* gap: 15px; */
-  margin: 10px 0;
-  padding: 0;
-  justify-content: flex-start;
+.review-avatars,
+.stats,
+.home-services .title,
+.home-services .row {
+  display: flex;
+  align-items: center;
 }
 
-.review-avatars {
-  display: flex;
-  gap: 8px;
+/* Reviews Section */
+.reviews-section.flex-container {
+  margin: 10px 0;
+  padding: 40px 40px 10px;
+  justify-content: flex-start;
 }
 
 .review-avatars img {
@@ -53,7 +55,6 @@
 }
 
 .stats {
-  display: flex;
   justify-content: space-around;
   margin-top: 20px;
 }
@@ -62,8 +63,14 @@
   width: 40%;
 }
 
-.home-content-image img {
+.home-content-image img,
+.offering,
+.reason,
+.home-services .table {
   width: 100%;
+}
+
+.home-content-image img {
   height: 75%;
   object-fit: cover;
   border-radius: 250px 250px 0 0;
@@ -78,23 +85,14 @@
   color: #f8da3c;
 }
 
-/* Offerings Section */
-.offerings {
-  flex-wrap: wrap;
-}
-
-.offering {
-  width: 100%;
-  max-width: 300px;
-}
-
-/* Reasons Section */
+/* Offerings & Reasins Section */
+.offerings,
 .reasons {
   flex-wrap: wrap;
 }
 
+.offering,
 .reason {
-  width: 100%;
   max-width: 300px;
 }
 
@@ -106,19 +104,8 @@
   background-color: rgb(244, 240, 226);
 }
 
-.home-services .table {
-  width: 100%;
-}
-
 .home-services .title {
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  /* margin-bottom: 30px; */
-}
-
-.home-services h1 {
-  font-weight: 700;
 }
 
 .home-services h3 {
@@ -126,18 +113,12 @@
 }
 
 .home-services .row {
-  display: flex;
   justify-content: space-between;
-  font-size: 25px;
   padding: 16px 0;
   border-bottom: 1px solid gray;
 }
-.home-services .row .name {
-  font-weight: normal;
-}
 
 .home-services .row .price {
-  font-weight: bold;
   color: #f8da3c;
 }
 
@@ -157,48 +138,28 @@
     height: 450px;
   }
 
-  .banner-content h1 {
-    font-size: 1.8em;
-  }
-
   .review-avatars img {
     width: 35px;
     height: 35px;
   }
 
-  .stats {
-    gap: 10px;
-  }
-
   .home-content-image,
-  .home-intro {
-    width: 100%;
-  }
-
-  .offerings,
-  .reasons {
-    flex-direction: column;
-    align-items: center;
-  }
-
+  .home-intro,
   .offering,
-  .reason {
-    width: 100%;
-    max-width: 100%;
-    margin-bottom: 20px;
-  }
-
+  .reason,
   .home-services .table {
     width: 100%;
   }
 
-  .home-services .row {
-    font-size: 20px;
-    padding: 12px 0;
+  .offering,
+  .reason {
+    max-width: 100%;
+    margin-bottom: 20px;
   }
 
-  .home-transform {
-    padding: 5% 10%;
+  .home-transform,
+  .home-services .row {
+    padding: 12px 0;
   }
 }
 
@@ -208,34 +169,9 @@
     height: 450px;
   }
 
-  .banner-content h1 {
-    font-size: 1.5em;
-  }
-
-  .reviews-section {
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: center;
-  }
-
   .review-avatars img {
     width: 30px;
     height: 30px;
-  }
-
-  .review-count {
-    font-size: 0.9em;
-  }
-  .stats h2 {
-    font-size: 1.2rem;
-  }
-
-  .stats p {
-    font-size: 0.9rem;
-  }
-
-  .home-content {
-    flex-direction: column;
   }
 
   .home-content-image img {
@@ -249,26 +185,7 @@
     padding: 10px;
   }
 
-  .offerings,
-  .reasons {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .offering,
-  .reason {
-    max-width: 100%;
-  }
-
-  .home-services .row {
-    font-size: 18px;
-  }
-
   .home-transform {
     padding: 10%;
-  }
-
-  .home-transform p {
-    font-size: 0.9em;
   }
 }

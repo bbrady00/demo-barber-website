@@ -56,10 +56,29 @@ link {
 
 /* Layout */
 .container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 30px;
+  padding: var(--container-padding);
+  max-width: 900px;
+  margin: 30px auto;
+  background-color: var(--bg-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  line-height: 1.6;
+  color: var(--text-color);
+  font-size: 1.5rem;
+}
+
+.container h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: var(--highlight-color);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.container p {
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
 }
 
 .flex-container {
@@ -73,6 +92,14 @@ link {
   align-items: center;
   text-align: center;
   text-align-last: center;
+}
+
+.grid-container {
+  display: grid;
+  gap: 1rem;
+  width: 100%;
+  max-width: 1400px;
+  margin: 2rem auto;
 }
 
 section {
@@ -115,6 +142,24 @@ footer a {
 footer a:hover {
   color: white;
   text-decoration: none;
+}
+
+.footer {
+  background-color: #000;
+  color: #f8da3c;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer a {
+  color: #f8da3c;
+}
+
+.footer a:visited {
+  color: #f8da3c;
 }
 
 /* Links */
@@ -165,6 +210,7 @@ a:visited {
   background-color: black;
   color: #f8da3c;
   text-decoration: none;
+  transform: translateY(-3px);
 }
 
 /* Forms */
@@ -215,31 +261,108 @@ header h1 {
   color: black;
   text-align: center;
 }
-
-/* Footer */
-.footer {
-  background-color: #000;
-  color: #f8da3c;
-  padding: 20px;
-  text-align: center;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-}
-
-.footer a {
-  color: #f8da3c;
-}
-
 /* Image Styling */
 img {
   max-width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
 }
 
 /* Section Titles */
 .highlight-text {
   color: #f8da3c;
+}
+
+/* Global Media Queries */
+
+/* For screens up to tablet */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  p,
+  ul,
+  li,
+  strong,
+  a,
+  link {
+    font-size: 1rem;
+  }
+
+  .container {
+    padding: 1rem;
+  }
+
+  .btn {
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .flex-container {
+    gap: 15px;
+  }
+
+  footer p {
+    font-size: 0.8rem;
+  }
+}
+
+/* For screens up to mobile*/
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  p,
+  ul,
+  li,
+  strong,
+  a,
+  link {
+    font-size: 0.9rem;
+  }
+
+  .container {
+    padding: 0.8rem;
+  }
+
+  .btn {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  .flex-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  footer p {
+    font-size: 0.7rem;
+  }
 }

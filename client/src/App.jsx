@@ -18,7 +18,7 @@ import "./assets/styles/app.css";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/kong">
       <div className="App">
         <Navbar />
         <Routes>

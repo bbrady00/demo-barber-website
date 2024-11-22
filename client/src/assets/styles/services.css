@@ -11,60 +11,29 @@
 
 /* Title Styling */
 .services-page h1 {
-  font-size: 3rem;
   color: #f8da3c;
-  font-weight: bold;
   margin: 2rem 0 1rem;
-  text-align: center;
 }
 
 h2.services-sub {
-  font-size: 2rem;
   color: rgb(244, 240, 226);
   font-weight: lighter;
-  margin: 1rem 0 1rem;
-  text-align: center;
-  max-width: 100vw;
-  line-height: 1.4;
 }
 
 p.services-paragraph {
-  font-size: 1.25rem;
-  color: var(#e1c437);
-  font-weight: lighter;
-  text-wrap: wrap;
-  margin: 1rem 0 1rem;
   text-align: center;
-  max-width: 100vw;
   line-height: 1.4;
-  padding: 0rem;
 }
 
 .services-page h2::after {
   content: none;
 }
 
-/* Services Page Subheading */
-.services-page .services-sub .services-paragraph {
-  font-size: 1.5rem;
-  color: rgb(244, 240, 226);
-  font-weight: lighter;
-  margin: 1rem 0 1rem;
-  text-align: center;
-  max-width: 100vw;
-  line-height: 1.4;
-}
-
-/* Services List Container */
+/* Service Container */
 .services-list {
   list-style-type: none;
   padding: 0;
-  display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-  width: 100%;
-  max-width: 1400px;
-  margin-top: 2rem;
 }
 
 /* Service Item Card */
@@ -109,7 +78,7 @@ p.services-paragraph {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -117,7 +86,6 @@ p.services-paragraph {
   background-color: white;
   transform: rotateY(180deg);
   color: black;
-  text-align: center;
   padding: 1rem;
 }
 
@@ -137,11 +105,8 @@ p.services-paragraph {
 
 /* Service Title */
 .service-title {
-  font-size: 1.7rem;
   color: black;
-  font-weight: 600;
   margin-top: 1rem;
-  text-align: center;
   line-height: 1.2;
   margin-bottom: 1.5rem;
 }
@@ -154,34 +119,8 @@ p.services-paragraph {
 }
 
 .price {
-  font-size: 1.4rem;
   font-weight: bold;
-  color: #333;
   letter-spacing: 1px;
-}
-
-/* Book Now Button */
-.book-now {
-  display: inline-block;
-  background-color: #f8da3c;
-  color: black;
-  padding: 10px 20px;
-  font-size: 1rem;
-  border-radius: 5px;
-  text-decoration: none;
-  text-align: center;
-  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
-}
-
-/* Book Now Button Hover/Active States */
-.book-now:hover {
-  background-color: black;
-  color: white;
-  transform: translateY(-3px);
-}
-
-.book-now:active {
-  background-color: #d4bb36;
 }
 
 /* Full-Width Booking Instructions Image */

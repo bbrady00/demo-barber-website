@@ -9,32 +9,6 @@
   --form-gap: 1rem;
 }
 
-.contact-container {
-  padding: var(--container-padding);
-  max-width: 900px;
-  margin: 30px auto;
-  background-color: var(--bg-color);
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  line-height: 1.6;
-  color: var(--text-color);
-  font-size: 1.5rem;
-}
-
-.contact-container h1 {
-  font-size: 3.5rem;
-  font-weight: 600;
-  color: var(--highlight-color);
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-.contact-container p {
-  font-size: 1.5rem;
-  padding: 1rem;
-  text-align: center;
-}
-
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -48,14 +22,12 @@
 }
 
 .form-field label {
-  font-size: 1.2rem;
   color: var(--text-color);
   margin-bottom: 0.5rem;
 }
 
 .form-field input,
 .form-field textarea {
-  font-size: 1.1rem;
   padding: 10px;
   border-radius: 5px;
   border: 1px solid var(--input-border);
@@ -71,7 +43,6 @@
 .submit-btn {
   background-color: var(--button-bg);
   color: black;
-  font-size: 1.2rem;
   padding: 12px 24px;
   border-radius: 5px;
   transition: background-color 0.3s;
@@ -81,23 +52,12 @@
   background-color: var(--button-bg-hover);
 }
 
-.contact-info {
-  text-align: center;
-  text-wrap: balance;
-}
-
-.contact-info h2 {
-  font-size: 2.5rem;
-  font-weight: 500;
-  color: var(--highlight-color);
-  margin-bottom: 1.5rem;
-}
-
 .contact-list {
   list-style-type: none;
   padding-left: 0;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 1rem;
 }
 
@@ -105,7 +65,6 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  font-size: 1.2rem;
   color: var(--text-color);
 }
 
@@ -122,74 +81,38 @@
 }
 
 @media screen and (max-width: 768px) {
-  .contact-container {
+  .contact {
     padding: 20px;
     max-width: 100%;
   }
 
-  .contact-container h1 {
-    font-size: 2.5rem;
-  }
-
-  .contact-container p {
-    font-size: 1.25rem;
+  .contact p {
     padding: 0.75rem;
-  }
-
-  .form-field input,
-  .form-field textarea {
-    font-size: 1rem;
-  }
-
-  .submit-btn {
-    font-size: 1.1rem;
-    padding: 10px 20px;
   }
 
   .contact-list {
     flex-direction: column;
   }
 
-  .contact-list li,
   .contact-info a {
     font-size: 1.1rem;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .contact-container {
+  .contact {
     padding: 15px;
-  }
-
-  .contact-container h1 {
-    font-size: 2rem;
-  }
-
-  .contact-container p {
-    font-size: 1rem;
-    padding: 0.5rem;
   }
 
   .contact-form {
     gap: 0.8rem;
   }
 
-  .form-field input,
-  .form-field textarea {
-    font-size: 0.95rem;
-  }
-
   .submit-btn {
     font-size: 1rem;
-    padding: 10px 18px;
   }
 
   .contact-list {
     gap: 0.5rem;
-  }
-
-  .contact-list li,
-  .contact-info a {
-    font-size: 1rem;
   }
 }

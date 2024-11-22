@@ -3,7 +3,7 @@ import "../../assets/styles/privacy.css";
 
 const PrivacyPolicy = () => {
   return (
-    <div className="privacy-policy">
+    <div className="privacy container">
       <h1>Privacy Policy</h1>
       <p>
         <strong>Effective Date:</strong> September 3, 2024

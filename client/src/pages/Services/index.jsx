@@ -20,7 +20,7 @@ const Services = () => {
         </p>
       </header>
 
-      <ul className="services-list">
+      <ul className="grid-container services-list">
         <li className="service-item">
           <div className="card">
             <div className="card-front">
@@ -37,7 +37,7 @@ const Services = () => {
               </div>
               <Link
                 to="https://book.squareup.com/appointments/6hn3xjye7xu1p9/location/LJDRH4FCQK8DK/services/WH6ESN5SSXJK7VZYP5A6BXBD"
-                className="book-now"
+                className="book-now btn"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -68,7 +68,7 @@ const Services = () => {
               </div>
               <Link
                 to="https://book.squareup.com/appointments/6hn3xjye7xu1p9/location/LJDRH4FCQK8DK/services/F2GQRUUHJJGNLG3VDTHNJDW6"
-                className="book-now"
+                className="book-now btn"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -98,7 +98,7 @@ const Services = () => {
               </div>
               <Link
                 to="https://book.squareup.com/appointments/6hn3xjye7xu1p9/location/LJDRH4FCQK8DK/services/IN5ERV5JVHIW7Q7CTWNLVU4H"
-                className="book-now"
+                className="book-now btn"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -128,7 +128,7 @@ const Services = () => {
               </div>
               <Link
                 to="https://book.squareup.com/appointments/6hn3xjye7xu1p9/location/LJDRH4FCQK8DK/services/WZ22IL5CJHKASXWYPWQLLZSP"
-                className="book-now"
+                className="book-now btn"
                 target="_blank"
                 rel="noopener noreferrer"
               >

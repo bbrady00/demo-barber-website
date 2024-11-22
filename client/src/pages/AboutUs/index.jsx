@@ -5,7 +5,7 @@ const AboutUs = () => {
   return (
     <div className="about-us-container">
       {/* Introduction Section */}
-      <section className="about-us-intro">
+      <section className="flex-container about-us">
         <div className="about-us-text-container">
           <h1 className="about-us-title">About Kong The Barber</h1>
           <p>
@@ -25,7 +25,7 @@ const AboutUs = () => {
       </section>
 
       {/* Services Section */}
-      <section className="about-us-reverse">
+      <section className="flex-container about-us-reverse">
         <div className="about-us-text">
           <h2 className="about-us-subtitle">Our Services</h2>
           <p>
@@ -61,7 +61,7 @@ const AboutUs = () => {
       </section>
 
       {/* Key Services Section */}
-      <section className="about-us">
+      <section className="flex-container about-us">
         <div className="about-us-long-image">
           <img
             src={require("../../assets/images/About/about3.png")}
@@ -89,7 +89,7 @@ const AboutUs = () => {
       </section>
 
       {/* Transformative Haircuts Section */}
-      <section className="about-us about-us-square-section">
+      <section className="grid-container about-us-square-section">
         <div className="about-us-text">
           <h2 className="about-us-subtitle">Transformative Haircuts</h2>
           <p>
@@ -117,7 +117,7 @@ const AboutUs = () => {
       </section>
 
       {/* Special Occasions Section */}
-      <section className="about-us">
+      <section className="flex-container about-us">
         <div className="about-us-long-image">
           <img
             src={require("../../assets/images/About/about5.png")}
@@ -136,7 +136,7 @@ const AboutUs = () => {
       </section>
 
       {/* Customer Satisfaction Section */}
-      <section className="about-us about-us-square-section">
+      <section className="grid-container about-us-square-section">
         <div className="about-us-text">
           <h2 className="about-us-subtitle">Customer Satisfaction</h2>
           <p>

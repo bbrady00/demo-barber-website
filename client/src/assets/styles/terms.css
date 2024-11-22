@@ -9,36 +9,8 @@
   --form-gap: 1rem;
 }
 
-.terms-conditions {
-  padding: var(--container-padding);
-  max-width: 900px;
-  margin: 30px auto;
-  background-color: var(--bg-color);
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  line-height: 1.6;
-  color: var(--text-color);
-  font-size: 1.5rem;
-}
-
-.terms-conditions h1 {
-  font-size: 3.5rem;
-  font-weight: 600;
-  color: var(--highlight-color);
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-.terms-conditions h2 {
-  font-size: 2rem;
-  margin-top: 25px;
-  margin-bottom: 15px;
-  color: var(--highlight-color);
-  position: relative;
-}
-
-.terms-conditions h2::after {
-  content: "";
+.terms h2::after {
+  content: none;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -47,20 +19,20 @@
   background-color: var(--highlight-color);
 }
 
-.terms-conditions p {
+.terms p {
   margin-bottom: 20px;
   font-size: 1.2rem;
   color: var(--text-color);
   line-height: 1.7;
 }
 
-.terms-conditions ul {
+.terms ul {
   list-style: none;
   padding-left: 0;
   margin: 15px 0;
 }
 
-.terms-conditions ul li {
+.terms ul li {
   font-size: 1.2rem;
   margin-bottom: 12px;
   color: var(--text-color);
@@ -69,7 +41,7 @@
   position: relative;
 }
 
-.terms-conditions ul li::before {
+.terms ul li::before {
   content: "•";
   color: var(--highlight-color);
   font-size: 1.5em;
@@ -78,70 +50,74 @@
   top: 0;
 }
 
-.terms-conditions a {
+.terms a {
   color: var(--highlight-color);
   text-decoration: none;
 }
 
-.terms-conditions a:hover {
+.terms a:hover {
   text-decoration: underline;
 }
 
-.terms-conditions strong {
+.terms a:visited {
+  color: #f8da3c;
+}
+
+.terms strong {
   font-weight: bold;
   color: var(--highlight-color);
 }
 
 /* Media Queries */
 @media screen and (max-width: 768px) {
-  .terms-conditions {
+  .terms {
     padding: 20px;
     max-width: 100%;
   }
 
-  .terms-conditions h1 {
+  .terms h1 {
     font-size: 2.5rem;
   }
 
-  .terms-conditions h2 {
+  .terms h2 {
     font-size: 1.8rem;
   }
 
-  .terms-conditions p {
+  .terms p {
     font-size: 1rem;
   }
 
-  .terms-conditions ul li {
+  .terms ul li {
     font-size: 1rem;
   }
 
-  .terms-conditions strong {
+  .terms strong {
     font-size: 1.1rem;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .terms-conditions {
+  .terms {
     padding: 15px;
   }
 
-  .terms-conditions h1 {
+  .terms h1 {
     font-size: 2rem;
   }
 
-  .terms-conditions h2 {
+  .terms h2 {
     font-size: 1.6rem;
   }
 
-  .terms-conditions p {
+  .terms p {
     font-size: 0.95rem;
   }
 
-  .terms-conditions ul li {
+  .terms ul li {
     font-size: 0.95rem;
   }
 
-  .terms-conditions strong {
+  .terms strong {
     font-size: 1rem;
   }
 }

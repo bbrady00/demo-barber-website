@@ -3,7 +3,7 @@ import "../../assets/styles/terms.css";
 
 const TermsConditions = () => {
   return (
-    <div className="terms-conditions">
+    <div className="terms container">
       <h1>Terms and Conditions</h1>
       <p>
         <strong>Effective Date:</strong> September 3, 2024

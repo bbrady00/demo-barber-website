@@ -22,7 +22,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact-container">
+    <div className="contact container">
       <h1>Contact Us</h1>
       <p>
         At Kong The Barber, we specialize in delivering premium, consultative

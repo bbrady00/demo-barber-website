@@ -77,7 +77,7 @@ const Home = () => {
       </div>
 
       <h2>What We Offer: More Than Just a Haircut</h2>
-      <div className="offerings flex-container">
+      <div className="flex-container offerings">
         <div className="offering">
           <h3>Haircuts That Turn Heads</h3>
           <p>
@@ -117,7 +117,7 @@ const Home = () => {
       </div>
 
       <h2>Why Choose Kong The Barber?</h2>
-      <div className="reasons flex-container">
+      <div className="flex-container reasons">
         <div className="reason">
           <h3>Expertise You Can Trust</h3>
           <p>
