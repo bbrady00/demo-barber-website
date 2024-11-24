@@ -53,19 +53,19 @@ Follow these steps to set up the project locally:
 
 2. **Install Dependencies**
 
-# For frontend
+**For frontend**
 
 cd client
 npm install
 
-# For backend
+**For backend**
 
 cd ../server
 npm install
 
 3. **Run Application**
 
-# Terminal 1: Start the backend
+**Terminal 1: Start the backend**
 
 cd server
 npm start

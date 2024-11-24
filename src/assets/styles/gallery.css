@@ -1,0 +1,232 @@
+.gallery {
+  text-align: center;
+  color: white;
+  margin: 2rem auto;
+  max-width: 1200px;
+}
+
+.gallery h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.gallery p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+/* Stacked Images */
+.stacked-images {
+  position: relative;
+  width: 200px; /* Ensure the images have a visible size */
+  height: auto;
+  margin: 2rem auto;
+}
+
+.stacked-image {
+  position: absolute;
+  width: 200px; /* Adjust size as needed */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stacked-image-1 {
+  top: 0;
+  left: 0;
+  z-index: 3;
+  transform: rotate(-5deg);
+}
+
+.stacked-image-2 {
+  top: 15px;
+  left: 15px;
+  z-index: 2;
+  transform: rotate(3deg);
+}
+
+.stacked-image-3 {
+  top: 30px;
+  left: 30px;
+  z-index: 1;
+  transform: rotate(-3deg);
+}
+
+.stacked-image-4 {
+  top: 45px;
+  left: 45px;
+  z-index: 0;
+  transform: rotate(5deg);
+}
+
+.stacked-image-5 {
+  top: 60px;
+  left: 60px;
+  z-index: -1;
+  transform: rotate(-2deg);
+}
+
+.stacked-image-6 {
+  top: 75px;
+  left: 75px;
+  z-index: -2;
+  transform: rotate(4deg);
+}
+
+.stacked-image:hover {
+  z-index: 4;
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Carousel Section */
+.carousel-section {
+  margin: 3rem auto;
+}
+
+.carousel-item img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Instagram feed placeholder container */
+.instagram-placeholder {
+  margin-top: 3rem;
+  padding: 2rem;
+  text-align: center;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.instagram-placeholder h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.instagram-placeholder p {
+  font-size: 1.1rem;
+  color: white;
+  margin-bottom: 1.5rem;
+}
+
+/* Placeholder grid for Instagram */
+.placeholder-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: minmax(150px, auto);
+  gap: 10px;
+}
+
+.placeholder-item {
+  position: relative;
+  padding-top: 100%;
+  background-color: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.placeholder-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ccc;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 1024px) {
+  .gallery-list {
+    grid-template-columns: repeat(
+      3,
+      1fr
+    ); /* 3 images per row on tablet-sized screens */
+    grid-auto-rows: 300px;
+  }
+
+  .gallery-item.large {
+    grid-column: span 1; /* Full width on smaller screens */
+    grid-row: span 2; /* Reduced height */
+  }
+
+  .gallery-item.small {
+    width: 100%; /* Maintain 100% width */
+    height: 300px; /* Maintain height of 300px */
+  }
+
+  .gallery-item[data-id="12"] {
+    display: none;
+  }
+
+  .placeholder-grid {
+    grid-template-columns: repeat(3, 1fr); /* Set 2 columns */
+    grid-auto-rows: minmax(150px, auto); /* Set row height */
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery h1 {
+    font-size: 2.5rem;
+  }
+
+  .gallery-list {
+    grid-template-columns: repeat(3, 1fr); /* 3 images per row */
+    grid-auto-rows: 300px;
+  }
+
+  .gallery-item.large {
+    grid-column: span 1;
+    grid-row: span 2;
+  }
+
+  .gallery-item.small {
+    width: 100%; /* Maintain width of 100% */
+    height: 300px; /* Maintain height of 300px */
+  }
+
+  .placeholder-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(150px, auto);
+  }
+
+  .instagram-placeholder h2 {
+    font-size: 1.8rem;
+  }
+
+  .instagram-placeholder p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery h1 {
+    font-size: 2rem;
+  }
+
+  .placeholder-grid {
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(150px, auto); /* Set row height */
+  }
+
+  .gallery-item.large {
+    grid-column: span 1;
+    grid-row: span 2;
+  }
+
+  .gallery-item.small {
+    width: 100%; /* Maintain width of 100% */
+    height: 300px; /* Maintain height of 300px */
+  }
+
+  .instagram-placeholder h2 {
+    font-size: 1.6rem;
+  }
+
+  .instagram-placeholder p {
+    font-size: 1rem;
+  }
+}
