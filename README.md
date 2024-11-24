@@ -45,7 +45,36 @@ Follow these steps to set up the project locally:
 ### Installation
 
 1. **Clone the Repository**
+
    ```bash
-   git clone https://github.com/your-username/demo-barber-website.git
+   git clone https://github.com/bbrady00/demo-barber-website.git
    cd demo-barber-website
    ```
+
+2. **Install Dependencies**
+
+# For frontend
+
+cd client
+npm install
+
+# For backend
+
+cd ../server
+npm install
+
+3. **Run Application**
+
+# Terminal 1: Start the backend
+
+cd server
+npm start
+
+# Terminal 2: Start the frontend
+
+cd client
+npm run dev
+
+4. **Access the Website**
+
+`http://localhost:3000`
