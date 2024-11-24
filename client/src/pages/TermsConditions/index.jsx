@@ -9,10 +9,9 @@ const TermsConditions = () => {
         <strong>Effective Date:</strong> September 3, 2024
       </p>
       <p>
-        Welcome to Kong The Barber. By accessing and using our website, booking
-        services, or engaging with us, you agree to comply with and be bound by
-        the following terms and conditions. Please read these terms carefully
-        before using our services.
+        By accessing and using our website, booking services, or engaging with
+        us, you agree to comply with and be bound by the following terms and
+        conditions. Please read these terms carefully before using our services.
       </p>
 
       <h2>1. Appointments and Bookings</h2>
@@ -108,8 +107,8 @@ const TermsConditions = () => {
       </p>
 
       <p>
-        Thank you for choosing Kong The Barber. We appreciate your business and
-        look forward to providing you with exceptional grooming services.
+        Thank you for choosing Demo Barber. We appreciate your business and look
+        forward to providing you with exceptional grooming services.
       </p>
     </div>
   );

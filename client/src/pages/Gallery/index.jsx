@@ -35,9 +35,8 @@ const Gallery = () => {
     <div className="gallery">
       <h1>Previous Haircuts</h1>
       <h2>
-        Kong The Barber provides a unique and personalised grooming experience,
-        using only the highest quality products to ensure you look and feel your
-        best.
+        Offering unique and personalised grooming experience, using only the
+        highest quality products to ensure you look and feel your best.
       </h2>
       <h2>
         From the moment you step into our shop, you'll know you're in good

@@ -14,7 +14,7 @@ const Navbar = () => {
       <Link to="/" className="nav-logo" onClick={() => setMenuOpen(false)}>
         <img
           src={require("../../assets/images/Logo/logoMain.png")}
-          alt="Kong The Barber"
+          alt="Logo Barber"
         />
       </Link>
 
@@ -48,7 +48,7 @@ const Navbar = () => {
         </li>
         <li className="book-now button-container">
           <a
-            href="https://book.squareup.com/appointments/6hn3xjye7xu1p9/location/LJDRH4FCQK8DK/services?buttonTextColor=000000&color=ffd814&locale=en&referrer=so"
+            href="r"
             className="navbar-book-now btn"
             target="_blank"
             rel="noopener noreferrer"

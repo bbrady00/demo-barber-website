@@ -9,7 +9,7 @@ import {
 
 export const InstagramIcon = ({ link }) => (
   <a
-    href={"https://www.instagram.com/kongtkebarber"}
+    href={"https://www.instagram.com/bitbrilliant"}
     target="_blank"
     rel="noopener noreferrer"
   >
@@ -18,14 +18,14 @@ export const InstagramIcon = ({ link }) => (
 );
 
 export const PhoneIcon = ({ link }) => (
-  <a href={"tel:+0401523371"} rel="noopener noreferrer">
+  <a href={"tel:+00000000001"} rel="noopener noreferrer">
     <FontAwesomeIcon icon={faPhone} size="2x" />
   </a>
 );
 
 export const MapIcon = ({ link }) => (
   <a
-    href={"https://maps.app.goo.gl/1WNRcscJ47CqPhHv9"}
+    href={"https://maps.app.goo.gl/1WNRcscJ47CqPhHv91232"}
     target="_blank"
     rel="noopener noreferrer"
   >
@@ -35,7 +35,7 @@ export const MapIcon = ({ link }) => (
 
 export const GlobeIcon = ({ link }) => (
   <a
-    href={"https://kong-the-barber.square.site/"}
+    href={"https://www.bitbrilliant.com.au/"}
     target="_blank"
     rel="noopener noreferrer"
   >

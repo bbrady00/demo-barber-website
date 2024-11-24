@@ -9,9 +9,9 @@ const PrivacyPolicy = () => {
         <strong>Effective Date:</strong> September 3, 2024
       </p>
       <p>
-        At Kong The Barber, your privacy is important to us. This Privacy Policy
-        outlines how we collect, use, and protect your personal information when
-        you visit our website, book an appointment, or engage with our services.
+        Your privacy is important to us. This Privacy Policy outlines how we
+        collect, use, and protect your personal information when you visit our
+        website, book an appointment, or engage with our services.
       </p>
 
       <h2>1. Information We Collect</h2>
@@ -101,8 +101,8 @@ const PrivacyPolicy = () => {
       </p>
 
       <p>
-        Thank you for choosing Kong The Barber. Your trust is important to us,
-        and we are committed to protecting your privacy.
+        Thank you for choosing Demo Barber. Your trust is important to us, and
+        we are committed to protecting your privacy.
       </p>
     </div>
   );

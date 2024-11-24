@@ -25,11 +25,11 @@ const Contact = () => {
     <div className="contact container">
       <h1>Contact Us</h1>
       <p>
-        At Kong The Barber, we specialize in delivering premium, consultative
-        haircuts tailored to your unique style. Whether you're looking for
-        expert recommendations or a fresh new look, Kong is here to guide you
-        through every step. We understand the importance of getting the perfect
-        cut, and we're dedicated to helping you achieve it.
+        We specialize in delivering premium, consultative haircuts tailored to
+        your unique style. Whether you're looking for expert recommendations or
+        a fresh new look, we are here to guide you through every step. We
+        understand the importance of getting the perfect cut, and we're
+        dedicated to helping you achieve it.
       </p>
       <p>
         Feel free to reach out if you have any questions or need assistance with
@@ -43,25 +43,25 @@ const Contact = () => {
           <li>
             <InstagramIcon />
             <a
-              href="https://www.instagram.com/kongtkebarber"
+              href="https://www.instagram.com/bitbrilliant"
               target="_blank"
               rel="noopener noreferrer"
             >
-              @kongtkebarber
+              @bitbrilliant
             </a>
           </li>
           <li>
             <PhoneIcon />
-            <a href="tel:0401523371">0401 523 371</a>
+            <a href="tel:0400000000111">04** *** ***</a>
           </li>
           <li>
             <GlobeIcon />
             <a
-              href="https://kong-the-barber.square.site/"
+              href="https://www.bitbrilliant.com.au/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              kong-the-barber.square.site
+              https://www.bitbrilliant.com.au/
             </a>
           </li>
         </ul>

@@ -7,7 +7,7 @@ const Footer = () => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth", // Smooth scroll to top
+      behavior: "smooth",
     });
   };
 
@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="footer-logo">
             <img
               src={require("../../assets/images/Logo/logoMain.png")}
-              alt="Kong The Barber Logo"
+              alt="Barber Logo"
               className="footer-logo-img"
             />
             <div className="footer-icons">
@@ -30,8 +30,8 @@ const Footer = () => {
           <div className="footer-map-container">
             <MapIcon />
             <div className="footer-address">
-              <p>67 Eva St, Clayton</p>
-              <p>VIC 3168, Australia</p>
+              <p>Address Line 1</p>
+              <p>State, Post, Country</p>
             </div>
             <img
               src={require("../../assets/images/Footer/maps-screenshot.jpg")}
@@ -81,7 +81,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-copyright">
-        <p>© 2024 Kong The Barber. All rights reserved.</p>
+        <p>© 2024 bbrady00. All rights reserved.</p>
       </div>
     </footer>
   );

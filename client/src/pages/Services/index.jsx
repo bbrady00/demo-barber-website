@@ -11,8 +11,8 @@ const Services = () => {
           Looking for a barber who understands your style?
         </h2>
         <p className="services-paragraph">
-          At Kong The Barber, we don't just give you a haircut – we craft a look
-          that's uniquely you.
+          We don't just give you a haircut – we craft a look that's uniquely
+          you.
         </p>
         <p className="services-paragraph">
           We’re all about taking the time to understand your needs and
@@ -114,7 +114,7 @@ const Services = () => {
             <div className="card-front">
               <img
                 src={require("../../assets/images/Services/before-after-cut.png")}
-                alt="Before Hours/After Hours Cut"
+                alt="Before/After Hours Cut"
                 className="service-image"
               />
             </div>
@@ -136,7 +136,7 @@ const Services = () => {
               </Link>
             </div>
           </div>
-          <h2 className="service-title">Before Hours/After Hours Cut</h2>
+          <h2 className="service-title">Before/After Hours Cut</h2>
         </li>
       </ul>
 

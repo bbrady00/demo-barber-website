@@ -63,15 +63,14 @@ const Home = () => {
           />
         </div>
         <section className="home-intro">
-          <h2>Looking for a Barber in Clayton Who Gets Your Style?</h2>
+          <h2>Looking for a Barber in Who Gets Your Style?</h2>
           <p>
-            You're in the right place. At Kong The Barber, we don't just give
-            haircuts – we craft them. Kong's passion for barbering shines
-            through in every cut, and his dedication to personalised service
-            means you'll walk out looking and feeling your best. Whether you're
-            after a sharp fade, a perfectly sculpted beard, or just a clean-up,
-            Kong's expertise and attention to detail will have you looking sharp
-            and ready to take on the world.
+            You're in the right place. We don't just give haircuts – we craft
+            them. Our passion for barbering shines through in every cut, and
+            dedication to personalised service means you'll walk out looking and
+            feeling your best. Whether you're after a sharp fade, a perfectly
+            sculpted beard, or just a clean-up, our expertise and attention to
+            detail will have you looking sharp and ready to take on the world.
           </p>
         </section>
       </div>
@@ -116,12 +115,12 @@ const Home = () => {
         </div>
       </div>
 
-      <h2>Why Choose Kong The Barber?</h2>
+      <h2>Why Choose Demo Barber?</h2>
       <div className="flex-container reasons">
         <div className="reason">
           <h3>Expertise You Can Trust</h3>
           <p>
-            Kong is highly skilled with years of experience, always up-to-date
+            We are highly skilled with years of experience, always up-to-date
             with the latest trends and techniques.
           </p>
         </div>

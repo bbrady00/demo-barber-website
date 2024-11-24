@@ -7,19 +7,18 @@ const AboutUs = () => {
       {/* Introduction Section */}
       <section className="flex-container about-us">
         <div className="about-us-text-container">
-          <h1 className="about-us-title">About Kong The Barber</h1>
+          <h1 className="about-us-title">About Demo Barber</h1>
           <p>
-            <strong>Kong The Barber</strong> was established on July 17, 2023,
-            in Clayton, and is dedicated to providing detailed and
-            transformative haircuts. With a focus on personalized grooming
-            experiences, Kong ensures each client leaves feeling confident and
-            stylish.
+            <strong>Demo Barber</strong> was established on July 17, 2023, and
+            is dedicated to providing detailed and transformative haircuts. With
+            a focus on personalized grooming experiences, we ensure each client
+            leaves feeling confident and stylish.
           </p>
         </div>
         <div className="about-us-long-image">
           <img
             src={require("../../assets/images/About/about1.png")}
-            alt="About Kong The Barber"
+            alt="About Demo Barber"
           />
         </div>
       </section>
@@ -46,7 +45,7 @@ const AboutUs = () => {
             </li>
           </ul>
           <p>
-            Kong takes a consultative approach, providing personalized
+            We take a consultative approach, providing personalized
             recommendations based on your face shape and style preferences. This
             ensures you receive the ideal haircut that complements your overall
             look.
@@ -81,9 +80,9 @@ const AboutUs = () => {
             </li>
           </ul>
           <p>
-            These services, combined with Kong's exceptional dedication to
-            precision, significantly enhance your appearance, ensuring you
-            always leave with a haircut you love.
+            These services, combined with exceptional dedication to precision,
+            significantly enhance your appearance, ensuring you always leave
+            with a haircut you love.
           </p>
         </div>
       </section>
@@ -93,11 +92,11 @@ const AboutUs = () => {
         <div className="about-us-text">
           <h2 className="about-us-subtitle">Transformative Haircuts</h2>
           <p>
-            Specialising in dramatic hair transformations, Kong guides you
+            Specialising in dramatic hair transformations, we will guide you
             through the process, offering recommendations that suit your face
             shape and personal style. Whether you're looking for a completely
-            new style or just a fresh update, Kong provides the expertise needed
-            to achieve your desired look.
+            new style or just a fresh update, provide the expertise needed to
+            achieve your desired look.
           </p>
         </div>
         <div className="about-us-square-image">
@@ -127,10 +126,10 @@ const AboutUs = () => {
         <div className="about-us-text">
           <h2 className="about-us-subtitle">Perfect for Special Occasions</h2>
           <p>
-            Kong The Barber is your go-to for special occasions, offering styles
-            that ensure you stand out at weddings, birthdays, clubs, and raves.
-            From sharp clean line-ups to sophisticated scissor cuts, we make
-            sure you're ready for any event.
+            Offering your go-to for special occasions, offering styles that
+            ensure you stand out at weddings, birthdays, clubs, and raves. From
+            sharp clean line-ups to sophisticated scissor cuts, we make sure
+            you're ready for any event.
           </p>
         </div>
       </section>
@@ -146,11 +145,9 @@ const AboutUs = () => {
             that exceeds expectations.
           </p>
           <p>
-            Clients in Mulgrave, Notting Hill, Oakleigh, Oakleigh East, Oakleigh
-            South, Huntingdale, Clarinda, Clayton South, Springvale, and Monash
-            can enjoy one-on-one VIP treatment. Experience the difference with
-            Kong The Barber and enjoy a grooming experience that leaves you
-            looking and feeling your best.
+            Clients can enjoy one-on-one VIP treatment. Experience the
+            difference with Demo Barber and enjoy a grooming experience that
+            leaves you looking and feeling your best.
           </p>
         </div>
         <div className="about-us-square-image">
