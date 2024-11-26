@@ -77,11 +77,11 @@ npm run dev or npm start
 View a live running link:  
 [HERE](https://www.github.com/bbrady/demo-barber-website/.io/demo-barber/)
 
-##Questions##
+##Questions
 Any questions or concerns? Please don't hesitate to contact me:  
 - **GitHub**: [bbrady00](https://github.com/bbrady00)  
 - **Email**: [your-email@example.com](mailto:your-email@example.com)
 
-##License##
+##License
 This repository is licensed under the MIT License.  
 View the license [here](./LICENSE).  
