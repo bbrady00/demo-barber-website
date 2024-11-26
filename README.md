@@ -15,7 +15,6 @@ This is a fully responsive and modern barber shop website, designed to showcase 
   - **About Us**: Highlights the barber shop's philosophy and story.
   - **Services**: A detailed list of grooming and styling options.
   - **Gallery**: A masonry layout showcasing haircut transformations.
-  - **Booking**: Direct link to schedule appointments (or placeholder for integration).
 - **Customizable Content**: Easily update branding, colors, images, and text.
 
 ---
@@ -25,9 +24,6 @@ This is a fully responsive and modern barber shop website, designed to showcase 
 - **Frontend**:
   - React (JSX, Components, State Management)
   - HTML5 & CSS3
-- **Backend**:
-  - Node.js (Express)
-  - MongoDB (Database)
 - **Build Tool**: Vite
 - **Styling**: Custom CSS with reusable, responsive classes
 
@@ -40,41 +36,51 @@ Follow these steps to set up the project locally:
 ### Prerequisites
 
 - **Node.js**: Install [Node.js](https://nodejs.org/) and npm.
-- **MongoDB**: Install MongoDB locally or set up a cloud-based instance.
+
+## File Structure
+```kong/
+   ├── public/             # Static assets
+   ├── src/                # React components and styles
+   │   ├── assets/         # Images and styles
+   │   ├── components/     # Reusable components
+   │   ├── pages/          # Page components
+   │   └── App.jsx         # Main app component
+   ├── package.json        # Dependencies
+   └── README.md           # Documentation
+```
 
 ### Installation
 
-1. **Clone the Repository**
-
-   ```bash
+1. **Clone the ```bash
    git clone https://github.com/bbrady00/demo-barber-website.git
    cd demo-barber-website
    ```
 
 2. **Install Dependencies**
 
-**For frontend**
-
 cd client
-npm install
-
-**For backend**
-
-cd ../server
 npm install
 
 3. **Run Application**
 
-**Terminal 1: Start the backend**
-
-cd server
-npm start
-
-# Terminal 2: Start the frontend
+**Terminal:
 
 cd client
-npm run dev
+npm run dev or npm start
 
 4. **Access the Website**
 
 `http://localhost:3000`
+
+**Live Link**  
+View a live running link:  
+[HERE](https://www.github.com/bbrady/demo-barber-website/.io/demo-barber/)
+
+##Questions##
+Any questions or concerns? Please don't hesitate to contact me:  
+- **GitHub**: [bbrady00](https://github.com/bbrady00)  
+- **Email**: [your-email@example.com](mailto:your-email@example.com)
+
+##License##
+This repository is licensed under the MIT License.  
+View the license [here](./LICENSE).  
