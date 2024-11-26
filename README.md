@@ -51,7 +51,8 @@ Follow these steps to set up the project locally:
 
 ### Installation
 
-1. **Clone the ```bash
+1. **Clone repository
+```bash
    git clone https://github.com/bbrady00/demo-barber-website.git
    cd demo-barber-website
    ```
