@@ -216,61 +216,59 @@ const Home = () => {
         </section>
       </section>
 
-      <section className={dropdown ? "dropdown-active" : ""}>
-        <div className="faq flex-container">
-          <div className="title">
-            <h1>FAQs</h1>
-            <ul className="questions-rows">
-              <li className="question-row">
-                <h2 className="question-title ">
-                  How can I pay?{" "}
-                  <span className="dropdown-arrow" onClick={toggleDropdown}>
-                    ⬇︎
-                  </span>
-                </h2>
-                <p className={dropdown ? "dropdown-active" : "dropdown-hidden"}>
-                  Book now and pay on the day via cash or card.
-                </p>
-              </li>
-              <li className="question">
-                <h2 className="question-title">
-                  Where Are You Located?
-                  <span className="dropdown-arrow" onClick={toggleDropdown}>
-                    ⬇︎
-                  </span>
-                </h2>
-                <p className={dropdown ? "dropdown-active" : "dropdown-hidden"}>
-                  We are located .... <br /> If you have trouble finding us,
-                  text ir call for assistance.
-                </p>
-              </li>
-              <li className="question">
-                <h2 className="question-title">
-                  What's Your Cancellation Policy?{" "}
-                  <span className="dropdown-arrow" onClick={toggleDropdown}>
-                    ⬇︎
-                  </span>
-                </h2>
-                <p className={dropdown ? "dropdown-active" : "dropdown-hidden"}>
-                  Cancel or reschedule at least one day before tour appointment.{" "}
-                  <br />A cancellation fee of 50% applies for no-shows or late
-                  cancellations.
-                </p>
-              </li>
-              <li className="question">
-                <h2 className="question-title">
-                  Do You Take Walk-Ins?{" "}
-                  <span className="dropdown-arrow" onClick={toggleDropdown}>
-                    ⬇︎
-                  </span>
-                </h2>
-                <p className={dropdown ? "dropdown-active" : "dropdown-hidden"}>
-                  No,we operate by appointment only to ensure each client
-                  receives personalised attention
-                </p>
-              </li>
-            </ul>
-          </div>
+      <section className="faq flex-container">
+        <div className="title">
+          <h1>FAQs</h1>
+          <ul className="questions-rows">
+            <li className="question-row">
+              <h2 className="question-title ">
+                How can I pay?{" "}
+                <span className="dropdown-arrow" onClick={toggleDropdown}>
+                  ⬇︎
+                </span>
+              </h2>
+              <p className={dropdown ? "dropdown-active" : "dropdown-hidden"}>
+                Book now and pay on the day via cash or card.
+              </p>
+            </li>
+            <li className="question">
+              <h2 className="question-title">
+                Where Are You Located?
+                <span className="dropdown-arrow" onClick={toggleDropdown}>
+                  ⬇︎
+                </span>
+              </h2>
+              <p className={dropdown ? "dropdown-active" : "dropdown-hidden"}>
+                We are located .... <br /> If you have trouble finding us, text
+                ir call for assistance.
+              </p>
+            </li>
+            <li className="question">
+              <h2 className="question-title">
+                What's Your Cancellation Policy?{" "}
+                <span className="dropdown-arrow" onClick={toggleDropdown}>
+                  ⬇︎
+                </span>
+              </h2>
+              <p className={dropdown ? "dropdown-active" : "dropdown-hidden"}>
+                Cancel or reschedule at least one day before tour appointment.{" "}
+                <br />A cancellation fee of 50% applies for no-shows or late
+                cancellations.
+              </p>
+            </li>
+            <li className="question">
+              <h2 className="question-title">
+                Do You Take Walk-Ins?{" "}
+                <span className="dropdown-arrow" onClick={toggleDropdown}>
+                  ⬇︎
+                </span>
+              </h2>
+              <p className={dropdown ? "dropdown-active" : "dropdown-hidden"}>
+                No,we operate by appointment only to ensure each client receives
+                personalised attention
+              </p>
+            </li>
+          </ul>
         </div>
       </section>
     </div>
