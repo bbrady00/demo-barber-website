@@ -100,7 +100,7 @@
 .home-services.flex-container {
   flex-direction: column;
   padding-top: 1%;
-  padding-bottom: 64px;
+  padding-bottom: 0;
   background-color: rgb(244, 240, 226);
 }
 
