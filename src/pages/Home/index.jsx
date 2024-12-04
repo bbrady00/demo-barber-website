@@ -6,9 +6,16 @@ const Home = () => {
   const [showDetails, setShowDetails] = useState(false);
 
   //State to control open and close of FAQ dropdown
-  const [dropdown, setDropdown] = useState(false);
+  const [faqStates, setFaqStates] = useState({
+    1: false,
+    2: false,
+    3: false,
+    4: false,
+  });
 
-  const toggleDropdown = () => setDropdown(!dropdown);
+  const toggleFaq = (id) => {
+    setFaqStates((prev) => ({ ...prev, [id]: !prev[id] }));
+  };
 
   // Function to show details on mouse enter
   const handleMouseEnter = () => {
@@ -220,54 +227,47 @@ const Home = () => {
         <div className="title">
           <h1>FAQs</h1>
           <ul className="questions-rows">
-            <li className="question-row">
-              <h2 className="question-title ">
-                How can I pay?{" "}
-                <span className="dropdown-arrow" onClick={toggleDropdown}>
-                  ⬇︎
-                </span>
-              </h2>
-              <p className={dropdown ? "dropdown-active" : "dropdown-hidden"}>
-                Book now and pay on the day via cash or card.
-              </p>
-            </li>
-            <li className="question">
-              <h2 className="question-title">
-                Where Are You Located?
-                <span className="dropdown-arrow" onClick={toggleDropdown}>
-                  ⬇︎
-                </span>
-              </h2>
-              <p className={dropdown ? "dropdown-active" : "dropdown-hidden"}>
-                We are located .... <br /> If you have trouble finding us, text
-                ir call for assistance.
-              </p>
-            </li>
-            <li className="question">
-              <h2 className="question-title">
-                What's Your Cancellation Policy?{" "}
-                <span className="dropdown-arrow" onClick={toggleDropdown}>
-                  ⬇︎
-                </span>
-              </h2>
-              <p className={dropdown ? "dropdown-active" : "dropdown-hidden"}>
-                Cancel or reschedule at least one day before tour appointment.{" "}
-                <br />A cancellation fee of 50% applies for no-shows or late
-                cancellations.
-              </p>
-            </li>
-            <li className="question">
-              <h2 className="question-title">
-                Do You Take Walk-Ins?{" "}
-                <span className="dropdown-arrow" onClick={toggleDropdown}>
-                  ⬇︎
-                </span>
-              </h2>
-              <p className={dropdown ? "dropdown-active" : "dropdown-hidden"}>
-                No,we operate by appointment only to ensure each client receives
-                personalised attention
-              </p>
-            </li>
+            {[
+              {
+                id: 1,
+                question: "How can I pay?",
+                answer: "Book now and pay on the day via cash or card.",
+              },
+              {
+                id: 2,
+                question: "Where Are You Located?",
+                answer:
+                  "We are located .... If you have trouble finding us, text or call for assistance.",
+              },
+              {
+                id: 3,
+                question: "What's Your Cancellation Policy?",
+                answer:
+                  "Cancel or reschedule at least one day before your appointment. A cancellation fee of 50% applies for no-shows or late cancellations.",
+              },
+              {
+                id: 4,
+                question: "Do You Take Walk-Ins?",
+                answer:
+                  "No, we operate by appointment only to ensure each client receives personalized attention.",
+              },
+            ].map((faq) => (
+              <li key={faq.id} className="question-row">
+                <h2
+                  className="question-title"
+                  onClick={() => toggleFaq(faq.id)}
+                >
+                  {faq.question} <span className="dropdown-arrow">⬇︎</span>
+                </h2>
+                <p
+                  className={
+                    faqStates[faq.id] ? "dropdown-active" : "dropdown-hidden"
+                  }
+                >
+                  {faq.answer}
+                </p>
+              </li>
+            ))}
           </ul>
         </div>
       </section>
